@@ -8,7 +8,7 @@
         font-family: 'Playfair Display', serif;
       }
       slide {
-        height: 97vh;
+        height: 100vh;
         justify-content: center;
         text-align: center;
         display: block;
@@ -60,9 +60,9 @@
       <h2>Why bother using machine learning?</h2>
       <ul>
         <li><strong>Problem scalability</strong>: There's a tipping point at which abstractions designed to simplify complex problems 
-          fail to perform well, or exceed maintenance costs.</li>
-        <li><strong>Data-based validation</strong>: Manual software solutions bake the assumptions of the software engineers into the 
-        solution. Checking solutions against a data set forces solutions to be robust. <em>Caveat: ML software can form its own biases, 
+          fail to perform well, or exceed development costs.</li>
+        <li><strong>Data-based validation</strong>: Manual software development bakes the assumptions of the software engineers into the 
+        solution. Checking solutions against a data set forces solutions to be robust. <em style="font-size: 1.4vw">Caveat: ML software can form its own biases, 
           if they exist in the data.</em></li>
       </ul>
       <img src="tay-screenshot.png" style="height: 30vh;" />
@@ -82,11 +82,11 @@
     <slide>
       <h2>When <em>not</em> to use it?</h2>
       <ul>
-        <li>A simplified system or algorithm will do the job reasonably well – there's an inherent degree of unpredictability 
+        <li><strong>A simplified system or algorithm will do the job reasonably well</strong> – there's an inherent degree of unpredictability 
           to ML software. Many of the costs involved in new ML software are "unknown unknowns" at a project's outset.</li>
-        <li>You want to predict the future within an open system – if there are variables that can't be adjusted for, or if 
+        <li><strong>You want to predict the future within an open system</strong> – if there are variables that can't be adjusted for, or if 
           there's an effective degree of randomness to the data, accuracy will be low, and could even degrade as the data set grows.</li>
-        <li>You want to use data without understanding it – although human time is expensive, humans are also extremely effective. 
+        <li><strong>You want to use data without understanding it</strong> – although human time is expensive, humans are also extremely effective. 
           Most data sets can be utilized in a way that doesn't require much (if any) ML.
         </li>
       </ul>
@@ -94,9 +94,9 @@
 
     <slide>
       <ul>
-        <li>There needs to be a rationale or justification behind decisions that are made – most mathematical algorithms 
+        <li><strong>There needs to be a rationale or justification behind decisions that are made</strong> – most mathematical algorithms 
           are opaque and either don't have or don't expose any underlying, abstract logic.</li>
-        <li>The system is susceptible to "observer effect" – if your system can react to your software, and if that reaction
+        <li><strong>The system is susceptible to "observer effect"</strong> – if your system can react to your software, and if that reaction
           is undesirable, you may find that your software is chasing its own tail. 
           <em>Example: anomaly detection in security applications.</em></li>
       </ul>
@@ -105,7 +105,7 @@
     <slide>
       <h2>Things that Sound Magical But Aren't</h2>
       <ul>
-        <li><strong>Machine Learning</strong>: Statistics, supercharged.</li>
+        <li><strong>Machine Learning</strong>: Statistics and algebra, supercharged.</li>
         <li><strong>Deep Learning</strong>: ML applications where the software is designed to build its own abstractions.</li>
         <li><strong>Neural Networks</strong>: Polynomial equations that use differential calculus to fit curves. 
           Nothing to do with the brain, really. </li>
